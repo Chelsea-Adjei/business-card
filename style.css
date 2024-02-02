@@ -1,0 +1,118 @@
+* {
+   margin: unset;
+   padding: unset;
+}
+
+body {
+    background-color: #f6a8fd;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#9b740a; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #192224;
+    border-radius: 10px;
+    width: 335px;
+}
+
+.image_section .profile {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 335px;
+    height: 387px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 34px;
+    color: #dcdcdc;
+}
+
+.content .content_info-name {
+    font-family: 'Mountains of Christmas', serif;
+    color: rgb(198, 255, 255);
+}
+
+.content .content_info-role {
+    color: #d89c71;
+    font-size: 15px;
+}
+
+.content .content_info-site {
+    color: #dcdcdc;
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.content .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.content .buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.content .buttons .buttons_email {
+    background-color: #fff;
+    text-decoration: none;
+    color: #192224;
+}
+
+.content .buttons .buttons_linkedin {
+    background: #76b1d8;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content .text_us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.content .text_us .text p{
+    font-size: 11.59px;
+    margin-top: 5px;
+    /*line-height: 50%;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    background-color: #0a3b39;
+    width: 100%;
+    height: 45px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
